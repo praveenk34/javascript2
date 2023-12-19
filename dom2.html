@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt=""width="100" height="100">
+  <ul>
+    <li>HTML</li>
+        <li>CSS</li>
+    <li>JAVASCRIPT</li>
+
+  </ul>
+</body>
+<script>
+ h1create=document.createElement("h1")
+ document.body.appendChild(h1create)
+ h1create.innerHTML="RESUME"
+ let imgget=document.getElementsByTagName("img")
+ imgget[0].setAttribute("src","./IMG20230422083201.jpg")
+ h1create.style.color="green"
+ let h3create=document.createElement("h3")
+ h3create.innerHTML="<u>CAREER OBJECTIVE:</u>"
+ document.body.append(h3create)
+ pcreate=document.createElement("p")
+ pcreate.innerHTML="To have a growth oriented and challenging position ,where I can contribute my knowledge and skills to organisation and enhance my experience through continue learning."
+ document.body.append(pcreate)
+ h3create=document.createElement("h3")
+  h3create.innerHTML="<u>PROJECTS INVOLVED:</u>"
+ document.body.append(h3create)
+ pcreate=document.createElement("p")
+ pcreate.innerHTML="Study on mechanical,tribological and microstructure characterization of friction stir processed of magnesium (AZ91D) alloy."
+ document.body.append(pcreate)
+ h3create=document.createElement("h3")
+  h3create.innerHTML="<u>TECHNICAL SKILLS:</u>"
+ document.body.append(h3create)
+// liget=document.getElementsByTagName("li")
+// console.log(liget)
+// document.body.append(liget)
+licreate=document.createElement("li")
+licreate.innerHTML="JAVASCRIPT"
+licreate2=document.createElement("li")
+licreate2.innerHTML="CSS"
+childcreate=document.createElement("li")
+childcreate.innerHTML="HTML"
+document.body.append(childcreate)
+
+document.body.append(licreate)
+document.body.append(licreate2)
+// licreate.insertBefore(childcreate,licreate2)
+
+
+
+ 
+
+
+</script>
+</html>
